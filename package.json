@@ -1,0 +1,26 @@
+{
+  "name": "improvement-texts",
+  "version": "1.0.0",
+  "description": "The rule texts the improvement MCP tools carry, shared by the hubs that have them.",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredericolawson/improvement-texts.git"
+  },
+  "license": "MIT"
+}
