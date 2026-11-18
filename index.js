@@ -41,6 +41,16 @@ export const NOTE_DESCRIPTION = `Log a note on an improvement: progress, a decis
 
 export const COMPLETE_DESCRIPTION = `Mark an improvement done with a closing note, logged like add_improvement_note; Slack posts it to the team. The note is one or two plain sentences, as a person would say it to a colleague: what changed, in the app's own words. No heading, list, code, file name or restating of the improvement; a last "Source:" line, as add_improvement_note has it, only when the closing was decided somewhere other than this chat. Screenshots go in images.`
 
+/** The tools' display titles, the MCP `title` annotation, one wording for every hub. */
+export const TOOL_TITLES = Object.freeze({
+  list_improvements: "List improvements",
+  get_improvement: "Read an improvement",
+  add_improvement: "Add an improvement",
+  update_improvement: "Update an improvement",
+  add_improvement_note: "Add a note to an improvement",
+  complete_improvement: "Complete an improvement",
+})
+
 /** Field texts, for the Zod `describe` on each tool's input. */
 export const DETAILS_FIELD = `Markdown: What, Why and Notes as they apply, Source always.`
 export const STATUS_FIELD = `new, start, partial or hold; done is complete_improvement.`

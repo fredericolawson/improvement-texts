@@ -1,6 +1,6 @@
 {
   "name": "improvement-texts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The rule texts the improvement MCP tools carry, shared by the hubs that have them.",
   "type": "module",
   "main": "./index.js",

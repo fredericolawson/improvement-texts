@@ -14,6 +14,14 @@ export const ADD_DESCRIPTION: string
 export const UPDATE_DESCRIPTION: string
 export const NOTE_DESCRIPTION: string
 export const COMPLETE_DESCRIPTION: string
+export const TOOL_TITLES: Readonly<{
+  list_improvements: string
+  get_improvement: string
+  add_improvement: string
+  update_improvement: string
+  add_improvement_note: string
+  complete_improvement: string
+}>
 export const DETAILS_FIELD: string
 export const STATUS_FIELD: string
 export const COMPLETE_NOTE_FIELD: string

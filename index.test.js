@@ -10,6 +10,7 @@ import {
   NOTE_DESCRIPTION,
   SOURCE_RULE,
   STATUS_FIELD,
+  TOOL_TITLES,
   TYPE_CLAUSE,
   UPDATE_DESCRIPTION,
   WRITING_RULE,
@@ -81,4 +82,16 @@ test("the complete rule and the field texts", () => {
   assert.equal(COMPLETE_NOTE_FIELD, "One or two plain sentences: what was done.")
   assert.equal(STATUS_FIELD, "new, start, partial or hold; done is complete_improvement.")
   assert.equal(DETAILS_FIELD, "Markdown: What, Why and Notes as they apply, Source always.")
+})
+
+test("the tool titles, one wording for every hub", () => {
+  assert.deepEqual(TOOL_TITLES, {
+    list_improvements: "List improvements",
+    get_improvement: "Read an improvement",
+    add_improvement: "Add an improvement",
+    update_improvement: "Update an improvement",
+    add_improvement_note: "Add a note to an improvement",
+    complete_improvement: "Complete an improvement",
+  })
+  assert.ok(Object.isFrozen(TOOL_TITLES))
 })

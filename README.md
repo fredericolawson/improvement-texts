@@ -7,7 +7,7 @@ The hubs that use it: `rushe-brain-ui`, `stitchhub`, `cj-hub` and `lifted/web-li
 ## Use
 
 ```json
-"improvement-texts": "github:fredericolawson/improvement-texts#v1.0.0"
+"improvement-texts": "github:fredericolawson/improvement-texts#v1.1.0"
 ```
 
 ```ts
@@ -16,7 +16,7 @@ import { ADD_DESCRIPTION, improvementInstructions } from "improvement-texts"
 
 A hub uses each text as its tool description and may append its own sentences after it (a title limit, what the call returns). It never rewrites one: a wording that should change changes here.
 
-The list and get descriptions stay in each hub, since they describe that hub's own data.
+The list and get descriptions stay in each hub, since they describe that hub's own data. The tools' titles (`TOOL_TITLES`, the MCP `title` annotation) come from here too.
 
 ## Change a rule
 
