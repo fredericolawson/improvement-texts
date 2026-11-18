@@ -2,7 +2,7 @@
 
 The rule texts the improvement MCP tools carry (`list_improvements`, `get_improvement`, `add_improvement`, `update_improvement`, `add_improvement_note`, `complete_improvement`), one copy for every hub that has them. The texts are the agent's instructions: how to write an improvement from what a person said, in the app's own words, and where it came from.
 
-The hubs that use it: `rushe-brain-ui`, `stitchhub`, `cj-hub` and `lifted/web-lifted`.
+The hubs that use it: `rushe-brain-ui`, `stitchhub`, `cj-hub`, `lifted/web-lifted` and `transfers-web`.
 
 ## Use
 
